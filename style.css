@@ -1,0 +1,90 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.font{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+        /* shared style */
+ .display-flex{
+  display: flex;
+ }  
+
+ .all-btn{
+  background-color: rgba(229, 84, 115, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 14px 28px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+ }
+
+ .all-btn:hover{
+  background-color: #d63b5c;
+ }
+ 
+
+ 
+
+     /* all property style */
+    /* heading with banner style */
+.banner{
+  /* max-width: 1600px; */
+  /* margin: 0 auto; */
+  background-color: rgba(229, 84, 115, 0.1);
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 240px 0;
+  gap: 95px;
+}
+
+.banner-content{
+  max-width: 550px;
+}
+
+.flower-heading{
+   font-size: 3rem;
+  font-weight: 800;
+  color: rgba(39, 39, 39, 1);
+  margin-bottom: 20px;
+}
+
+.flower-description{
+  max-width: 634px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(39, 39, 39, 0.6);
+  margin-bottom: 30px;
+}
+
+.flower-image{
+  max-width: 500px;
+  display: block;
+}
+
+
+
+
+
+@media screen and (max-width:576px){
+  .banner{
+    flex-direction: column;
+    padding: 30px 20px 0;
+    text-align: center;
+  }
+
+  .banner-content{
+    max-width: 100%;
+  }
+  }
+  .flower-image{
+    max-width: 100%;
+    margin-top: 15px;
+  }
